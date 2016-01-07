@@ -1,0 +1,8 @@
+/* Remove Moments Tab */
+li.moments, li.js-moments-tab {
+    display: none;
+}
+/* Remove Who to follow block */
+wtf-module {
+    display: none;
+}

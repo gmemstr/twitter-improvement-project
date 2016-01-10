@@ -1,5 +1,6 @@
 /* Hide unneeded stuff */
-li.moments, li.js-moments-tab, .wtf-module.has-content, .settings > .avatar{
+li.moments, li.js-moments-tab, .wtf-module.has-content, .settings > .avatar,
+.topbar-tweet-btn {
     display: none !important;
 }
 

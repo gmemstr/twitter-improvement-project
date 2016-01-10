@@ -1,8 +1,9 @@
-/* Remove Moments Tab */
-li.moments, li.js-moments-tab {
-    display: none;
+/* Hide unneeded stuff */
+li.moments, li.js-moments-tab, .wtf-module.has-content, .settings > .avatar{
+    display: none !important;
 }
-/* Remove Who to follow block */
-wtf-module {
-    display: none;
+
+/* New image for Settings button */
+.settings {
+    content: url(https://pbs.twimg.com/media/CYURfiDUoAA0rqq.png) !important;
 }

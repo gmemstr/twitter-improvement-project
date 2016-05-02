@@ -18,17 +18,13 @@
     "offline_enabled": false,
     "permissions": [
         "http://twitter.com/*",
-        "https://twitter.com/*",
-        "http://sidesonline/*",
-        "https://sidesonline/*"
+        "https://twitter.com/*"
     ],
     "content_scripts": [
         {
             "matches": [
                 "http://twitter.com/*",
-                "https://twitter.com/*",
-                "http://www.sidesonline.com/*",
-                "https://www.sidesonline.com/*"
+                "https://twitter.com/*"
             ],
             "run_at": "document_end",
             "all_frames": false,

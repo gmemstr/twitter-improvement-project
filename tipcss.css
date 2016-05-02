@@ -14,3 +14,7 @@ li.moments, li.js-moments-tab, .wtf-module.has-content, .settings > .avatar,
 .DashboardProfileCard-bg {
     height: 75px !important;
 }
+
+.d_gd{
+    display: none !important;
+}

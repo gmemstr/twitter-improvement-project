@@ -1,0 +1,179 @@
+/* Hide unneeded stuff */
+li.moments, li.js-moments-tab, .wtf-module.has-content, .settings > .avatar,
+.topbar-tweet-btn, .DashboardProfileCard-screennameLink,
+.Trends{
+    display: none !important;
+}
+
+/* New image for Settings button */
+.settings {
+    content: url(https://pbs.twimg.com/media/CYURfiDUoAA0rqq.png) !important;
+}
+
+/* Slim down the profile bg */
+.DashboardProfileCard-bg {
+    height: 75px !important;
+}
+
+.nightModeButton {
+    color: inherit;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 1;
+    padding: 0 14px 0 4px;
+}
+
+.night-mode {
+    background-color: #1b2836;
+    color: #c7cbce !important;
+}
+
+.text {
+   color: #c7cbce !important; 
+}
+
+.night-mode .global-nav-inner,
+.night-mode .DashboardProfileCard-content {
+    background-color: #243447;
+}
+
+.night-mode .DashboardProfileCard {
+    border: 1px solid #243447;
+}
+.night-mode .DashboardProfileCard-avatarLink {
+    background-color: #243447;
+}
+.night-mode .DashboardProfileCard-avatarImage {
+    border: 1px solid #243447;
+}
+
+.night-mode .tweet {
+    background-color: #1b2836;
+    border-bottom: 1px solid #414f5c;
+}
+.night-mode .tweet:hover {
+    background-color: #1b2836;
+}
+.night-mode .stream-item {
+    border-left: 1px solid #414f5c !important;
+    border-right: 1px solid #414f5c !important;
+}
+
+.night-mode .flex-module {
+    background-color: #243447 !important;
+    border: 1px solid #414f5c !important;
+}
+
+.night-mode .tweet-box {
+    background-color: #243447;
+}
+.night-mode .timeline-tweet-box {
+    border: 1px solid #414f5c !important;
+}
+
+.night-mode .tweet-box {
+    color: #c7cbce;
+}
+.night-mode input:focus,
+.night-mode textarea:focus,
+.night-mode div[contenteditable="true"]:focus,
+.night-mode div[content] {
+    color: #c7cbce !important;
+}
+
+.night-mode .tweet-counter {
+    text-shadow: 0 1px 1px rgba(255,255,255,0);
+}
+
+.night-mode .fullname {
+    color: #fafbfb;
+}
+
+.night-mode .username {
+    color: #8899a6;
+}
+
+.night-mode .RichEditor {
+    border: 1px solid #414f5c;
+}
+
+.night-mode #global-actions > li > a {
+    color: #1da1f2 !important;
+    border-bottom-color: #1da1f2;
+}
+
+.night-mode .flex-module-inner, .flex-module-footer {
+     color: #c7cbce;
+}
+
+.night-mode .tweet-btn {
+    background-color: #1da1f2;
+}
+
+.night-mode .Icon--retweeted {
+    color: #1da1f2 !important;
+}
+
+.night-mode a,
+.night-mode .btn-link,
+.night-mode .btn-link:focus,
+.night-mode .icon-btn,
+.night-mode .pretty-link b,
+.night-mode .pretty-link:hover s,
+.night-mode .pretty-link:hover b,
+.night-mode .pretty-link:focus s,
+.night-mode .pretty-link:focus b,
+.night-mode .metadata a:hover,
+.night-mode .metadata a:focus,
+.night-mode .account-group:hover .fullname,
+.night-mode .account-group:focus .fullname,
+.night-mode .account-summary:focus .fullname,
+.night-mode .message .message-text a,
+.night-mode .stats a strong,
+.night-mode .plain-btn:hover,
+.night-mode .plain-btn:focus,
+.night-mode .dropdown.open .user-dropdown.plain-btn,
+.night-mode .open > .plain-btn,
+.night-mode #global-actions .new:before,
+.night-mode .module .list-link:hover,
+.night-mode .module .list-link:focus,
+.night-mode .stats a:hover,
+.night-mode .stats a:hover strong,
+.night-mode .stats a:focus,
+.night-mode .stats a:focus strong,
+.night-mode .find-friends-sources li:hover .source,
+.night-mode .stream-item a:hover .fullname,
+.night-mode .stream-item a:focus .fullname,
+.night-mode .stream-item .view-all-supplements:hover,
+.night-mode .stream-item .view-all-supplements:focus,
+.night-mode .tweet .time a:hover,
+.night-mode .tweet .time a:focus,
+.night-mode .tweet .details.with-icn b,
+.night-mode .tweet .details.with-icn .Icon,
+.night-mode .stream-item:hover .original-tweet .details b,
+.night-mode .stream-item .original-tweet.focus .details b,
+.night-mode .stream-item.open .original-tweet .details b,
+.night-mode .client-and-actions a:hover,
+.night-mode .client-and-actions a:focus,
+.night-mode .dismiss-btn:hover b,
+.night-mode .tweet .context .pretty-link:hover s,
+.night-mode .tweet .context .pretty-link:hover b,
+.night-mode .tweet .context .pretty-link:focus s,
+.night-mode .tweet .context .pretty-link:focus b,
+.night-mode .list .username a:hover,
+.night-mode .list .username a:focus,
+.night-mode .list-membership-container .create-a-list,
+.night-mode .list-membership-container .create-a-list:hover,
+.night-mode .card .list-details a:hover,
+.night-mode .card .list-details a:focus,
+.night-mode .card .card-body:hover .attribution,
+.night-mode .card .card-body .attribution:focus,
+.night-mode .new-tweets-bar,
+.night-mode .remove-background-btn,
+.night-mode .stream-item-activity-notification .latest-tweet .tweet-row a:hover,
+.night-mode .stream-item-activity-notification .latest-tweet .tweet-row a:focus,
+.night-mode .stream-item-activity-notification .latest-tweet .tweet-row a:focus b {
+    color: #1da1f2 !important;
+}

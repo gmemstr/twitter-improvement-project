@@ -17,6 +17,7 @@
 
     "offline_enabled": false,
     "permissions": [
+        "storage",
         "http://twitter.com/*",
         "https://twitter.com/*"
     ],
@@ -26,7 +27,7 @@
                 "http://twitter.com/*",
                 "https://twitter.com/*"
             ],
-            "run_at": "document_end",
+            "run_at": "document_start",
             "all_frames": false,
             "js": [
                 "content/script.js"

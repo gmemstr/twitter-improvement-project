@@ -8,7 +8,9 @@
     "version_name": "2.0.0 Testing",
     "homepage_url": "https://github.com/gmemstr/twitter-improvement-project/",
     "author":       "Gabriel Simmer",
-
+    "background": {
+        "scripts": ["content/script.js"]
+    },
     "icons": {
         "16":  "icons/icon16.png",
         "48":  "icons/icon48.png",
@@ -33,7 +35,8 @@
                 "content/script.js"
             ],
             "css": [
-                "content/styles.css"
+                "content/night-mode.css",
+                "content/hidden.css"
             ]
         }
     ]

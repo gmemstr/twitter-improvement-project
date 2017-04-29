@@ -1,44 +1,21 @@
-/* 
-    Provides all the CSS needed for TIP,
-    including hiding uneccesary items and
-    providing night mode CSS.
+/* Night Mode 
 
-    Night mode uses the colour palette that
-    the official app uses, specifically:
-    
-    Muted / background colour: #1B2836  # Dark navy blue
-    Text: #C7CBCE  # Off-white
-    Border: #414F5C  # Standard gr(a/e)y
-    Highlights: #1DA1F2  # Light blue
+Night mode uses the colour palette that
+the official app uses, specifically:
+
+Muted / background colour: #1B2836
+Text: #C7CBCE
+Border: #414F5C
+Highlights: #1DA1F2
 
 */
-/* Hide unneeded stuff */
-
-li.moments,
-li.js-moments-tab,
-.wtf-module.has-content,
-.settings > .avatar,
-.topbar-tweet-btn,
-.DashboardProfileCard-screennameLink,
-.Trends {
-    display: none !important;
-}
-/* New image for Settings button */
-
-.settings {
-    content: url(https://pbs.twimg.com/media/CYURfiDUoAA0rqq.png) !important;
-}
-/* Slim down the profile bg */
-
-.DashboardProfileCard-bg {
-    height: 75px !important;
-}
-/* Night Mode */
 /* 
     Be warned, there is a lot here... most coded
     by hand ^_^
 */
 
+
+/* Night mode button */
 .nightModeButton {
     color: inherit;
     display: block;
@@ -48,6 +25,8 @@ li.js-moments-tab,
     line-height: 1;
     padding: 0 14px 0 4px;
 }
+
+/* Generic night mode styles */
 .night-mode {
     background-color: #1b2836;
     color: #c7cbce !important;
@@ -62,6 +41,12 @@ li.js-moments-tab,
 .night-mode .NotificationsHeadingContent {
     background-color: #243447;
 }
+
+/* Night mode styles for timeline */
+.night-mode .TwitterCard .SummaryCard-content {
+    color: #c7cbce !important;
+}
+
 .night-mode .DashboardProfileCard,
 .night-mode .DashboardProfileCard-avatarImage {
     border: 1px solid #243447;
@@ -170,7 +155,7 @@ li.js-moments-tab,
 }
 .night-mode .Icon--retweeted,
 .night-mode .Icon--heartBadge,
-.night-mode a,
+.night-mode a, /* This is jut silly */
 .night-mode .btn-link,
 .night-mode .btn-link:focus,
 .night-mode .pretty-link b,

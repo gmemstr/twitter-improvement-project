@@ -57,4 +57,20 @@ function checkIfNightTime() {
             console.log("Not night time");
         }
     });
+    /*
+     Really hacky way of getting around Twitter's event
+     handlers overriding my methods. Checks every second 
+     if the night-mode body class has been disabled or not.
+    */
+    setInterval(function(){
+    console.log("checking night again");
+
+    chrome.storage.sync.get("nightMode", function (obj) {
+        console.log(hasClass(document.body,"night-mode"));
+        if (obj.nightMode && !hasClass(document.body, "night-mode")){
+            console.log("night mode true, body hasClass false");
+            document.body.classList.toggle("night-mode");
+        } 
+    });
+    }, 1000);
 }

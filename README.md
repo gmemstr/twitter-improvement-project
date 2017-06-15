@@ -7,10 +7,6 @@ main timeline, including hiding most of the "useless" interface
 elements (moments, who to follow, trends, etc), and adding night
 mode.
 
-Currently, it is being sold on the Chrome Webstore for $0.99USD,
-as a way of supporting the developer, however you can follow Installing
-if you'd prefer to use a slightly more bleeding edge source. And 
-if you want to support me, drop a buck for the web store version.
 
 ## Features
 
@@ -27,9 +23,6 @@ Go to `chrome://extensions`, and make sure to enable developer mode.
 Then, click 'load unpacked extension' and select the folder 
 `twitter-improvement-project`.
 
-Chrome will bother you about developer extensions, you can get rid
-of this by buying the extension on the Chrome webstore, which
-includes a free trial to give it a try.
 
 ## Night Mode
 
@@ -38,8 +31,11 @@ includes a free trial to give it a try.
 `@todo: example colour swatch pngs`
 
 Muted / background colour: #1B2836  # Dark navy blue
+
 Text: #C7CBCE  # Off-white
+
 Border: #414F5C  # Standard gr(a/e)y
+
 Highlights: #1DA1F2  # Light blue
 
 ### Toggling

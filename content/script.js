@@ -8,6 +8,8 @@
 window.onload = setup;
 
 function setup() {
+
+    
     if (document.title.indexOf("Twitter") != -1) {
         //Creating Elements
         var btn = document.createElement("button")

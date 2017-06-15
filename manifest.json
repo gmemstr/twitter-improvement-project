@@ -4,8 +4,8 @@
     "name":         "Twitter Improvement Project",
     "short_name":   "TIP",
     "description":  "Improve your experience on Twitter.com",
-    "version":      "2.1.2",
-    "version_name": "2.1.2 Night Mode",
+    "version":      "2.2.0",
+    "version_name": "2.2.0 No Curves",
     "homepage_url": "https://github.com/gmemstr/twitter-improvement-project/",
     "author":       "Gabriel Simmer",
     "background": {
@@ -36,7 +36,8 @@
             ],
             "css": [
                 "content/night-mode.css",
-                "content/hidden.css"
+                "content/hidden.css",
+                "content/fix-twitter.css"
             ]
         }
     ]
